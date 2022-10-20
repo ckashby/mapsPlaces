@@ -20,6 +20,7 @@ export class PlaceFinder {
           lat: successResult.coords.latitude,
           lng: successResult.coords.longitude,
         };
+        console.log('Please wait...');
         console.log(coordinates);
       },
       (error) => {
